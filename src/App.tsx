@@ -10,8 +10,6 @@ export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle/>
-      <h1>Hello word</h1>
- 
       <Transactions />
     </ThemeProvider>
     
